@@ -27,7 +27,13 @@ touching any of your existing custom node folders or their git repos.
    └── prestartup_script.py
    ```
 
-2. Restart ComfyUI.
+   or clone this in `custom_nodes` directory:
+
+   ```
+   git clone https://github.com/mykeehu/node_load_markers
+   ```
+
+3. Restart ComfyUI.
 
 That's it — no further configuration. ComfyUI automatically runs every
 `prestartup_script.py` it finds in a direct subfolder of `custom_nodes`
